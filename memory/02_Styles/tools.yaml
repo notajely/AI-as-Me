@@ -1,0 +1,50 @@
+# 工具偏好配置
+# 来源: 从 01_Timeline 提炼的工具使用习惯
+# 最后更新: 待填写
+
+# 开发工具
+editor: "待填写"           # 例如: "VS Code" / "Vim" / "Cursor"
+terminal: "待填写"         # 例如: "zsh" / "bash" / "fish"
+shell_theme: "待填写"      # 例如: "oh-my-zsh" / "默认" / "自定义"
+
+# 版本控制
+version_control: "git"
+git_workflow: "待填写"     # 例如: "Git Flow" / "GitHub Flow" / "Trunk-based"
+commit_style: "待填写"     # 例如: "Conventional Commits" / "简短描述" / "详细说明"
+
+# 编程语言偏好
+primary_languages: []      # 例如: ["Python", "JavaScript", "Go"]
+preferred_frameworks: []   # 例如: ["React", "FastAPI", "Flask"]
+
+# 包管理器
+package_managers:
+  python: "待填写"         # 例如: "pip" / "poetry" / "conda"
+  javascript: "待填写"     # 例如: "npm" / "yarn" / "pnpm"
+
+# 数据库
+preferred_databases: []    # 例如: ["PostgreSQL", "MongoDB", "Redis"]
+database_tools: []         # 例如: ["DBeaver", "TablePlus", "CLI"]
+
+# AI 工具
+ai_assistants: []          # 例如: ["Claude", "GPT-4", "Gemini"]
+ai_usage_preference: "待填写"  # 例如: "协作伙伴" / "辅助工具" / "代码补全"
+
+# 其他工具
+note_taking: "待填写"      # 例如: "Obsidian" / "Notion" / "Markdown 文件"
+task_management: "待填写"  # 例如: "Todoist" / "Notion" / "纸笔"
+communication: []          # 例如: ["Slack", "Discord", "Email"]
+
+# 常用命令与快捷键
+# 记录经常使用的命令，方便 AI 推荐
+common_commands: []
+# 例如:
+# - "git status && git diff"
+# - "docker-compose up -d"
+# - "pytest -v"
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 填写指南
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1. 从 01_Timeline 中提炼工具使用模式
+# 2. 记录你最常用的工具和命令
+# 3. AI 助手会根据这些配置推荐工具和命令
